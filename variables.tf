@@ -28,4 +28,5 @@ variable "private_subnets_cidr" {
 variable "region" {
   description = "The region where the VPC to be deployed"
   type        = string
+  default = "us-east-1"
 }
